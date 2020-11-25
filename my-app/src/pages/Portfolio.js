@@ -1,7 +1,7 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-
+import Footer from "../Components/Footer";
 
 function Portfolio() {
     return (
@@ -14,6 +14,7 @@ function Portfolio() {
                     <Nav.Link id="navitem" href="Contact">Contact</Nav.Link>
                 </Nav>
             </Navbar>
+            <Footer></Footer>
         </Container>
     );
 }

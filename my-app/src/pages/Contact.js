@@ -2,6 +2,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import "../assets/css/style.css";
+import Footer from "../Components/Footer";
 
 function Contact() {
     return (
@@ -14,6 +15,7 @@ function Contact() {
                     <Nav.Link id="navitem" href="Contact">Contact</Nav.Link>
                 </Nav>
             </Navbar>
+            <Footer></Footer>
         </Container>
     );
 }
