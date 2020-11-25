@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 import Home from './pages/Home' // import our pages 
-import { Switch, Route, Link } from 'react-router-dom'; // import the react-router-dom components
+import { Switch, Route, Link, Router } from 'react-router-dom'; // import the react-router-dom components
 
 function App() {
   return (
-    <Router><div className="App">
+    <Router>
+      <div className="App">
       <Container>
         <Switch>
           <Route exact path='/' Component={Home} />

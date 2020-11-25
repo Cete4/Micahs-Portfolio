@@ -5,7 +5,6 @@ import Container from 'react-bootstrap/Container';
 
 function Home() {
     return (
-        <Container>
             <div>
                 <>
                     <Navbar bg="dark" variant="dark">
@@ -18,7 +17,6 @@ function Home() {
                     </Navbar>
                 </>
             </div>
-        </Container>
     );
 }
 
