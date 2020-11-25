@@ -15,8 +15,14 @@ body {
   padding-bottom: 3rem; /* Footer height */
 }
 
-.jumbotron {
-  border-radius: 5px;
+#navbar {
+  background-color: rgb(185, 194, 204);
+  opacity: 0.7;
+}
+
+#navitem{
+  color: black;
+  font-weight: 400;
 }
 
 .lead {
