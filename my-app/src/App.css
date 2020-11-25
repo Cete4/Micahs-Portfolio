@@ -1,38 +1,72 @@
-.App {
+body {
+  background-image: url(../src/assets/images/background.jpg);
+  color: black;
+}
+.nav-item {
+  color: black;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 3rem; /* Footer height */
+}
+
+.jumbotron {
+  border-radius: 5px;
+}
+
+.lead {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#footer {
+  opacity: 0.8;
+  background-color: #273b4d;
+  size: 10px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem; /* Footer height */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Style all font awesome icons */
+.fa {
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 1;
+}
+
+/* Set a specific color for each brand after some different looks they look better with a simple universal color */
+
+/* Facebook */
+.fa-linkedin {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Facebook */
+.fa-github {
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Twitter */
+.fa-file-alt {
+  color: white;
+}
+
+footer {
+  color: white;
 }
