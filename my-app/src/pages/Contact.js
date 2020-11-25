@@ -7,7 +7,7 @@ function Contact() {
     return (
         <Container>
             <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="#home" id="home">Micah BigEagle</Navbar.Brand>
+                <Navbar.Brand id="home">Micah BigEagle</Navbar.Brand>
                 <Nav className="mr-auto">
                     <Nav.Link href="Home">About</Nav.Link>
                     <Nav.Link href="Portfolio">Portfolio</Nav.Link>

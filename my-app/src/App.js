@@ -1,20 +1,23 @@
-import React, { Component } from 'react';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import Home from './pages/Home' // import our pages 
 import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
-import { Switch, Route, Link, Router } from 'react-router-dom'; // import the react-router-dom components
+
+
 
 function App() {
   return (
     <div className="App">
-      <Switch>
-        <Route exact path='' Component={Home} />
-        <Route exact path='/' Component={Home} />
-        <Route exact path='/Home' Component={Home} />
-        <Route exact path='/Contact' Component={Contact} />
-        <Route exact path='/Portfolio' Component={Portfolio} />
-      </Switch>
+      <Router>
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/Home' component={Home} />
+          <Route exact path='/Contact' component={Contact} />
+          <Route exact path='/Portfolio' component={Portfolio} />
+        </Switch>
+      </Router>
     </div>
   );
 }
