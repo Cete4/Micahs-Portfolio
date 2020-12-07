@@ -4,7 +4,8 @@ import "../../assets/css/style.css"
 
 const FooterPagePro = () => {
     return (
-        <MDBFooter id="footer" className="font-small pt-0">
+        <div id="footer">
+        <MDBFooter color="rgba(62, 69, 81, 0.7) rgba-stylish-strong" id="footer" className="font-small pt-0">
             <MDBContainer>
                 <MDBRow>
                     <MDBCol md="12" className="py-5">
@@ -33,6 +34,7 @@ const FooterPagePro = () => {
                 </MDBContainer>
             </div>
         </MDBFooter>
+        </div>
     );
 }
 
