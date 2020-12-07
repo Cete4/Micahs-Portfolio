@@ -10,7 +10,7 @@ function Home() {
                 <Navbar.Brand id="home">Micah BigEagle</Navbar.Brand>
                 <Nav className="mr-auto">
                     <Nav.Link id="navitem" href="Home">About</Nav.Link>
-                    <Nav.Link id="navitem" href="Portfolio">Portfolio</Nav.Link>
+                    <Nav.Link id="navitem" href="Work">Portfolio</Nav.Link>
                     <Nav.Link id="navitem" href="Contact">Contact</Nav.Link>
                 </Nav>
             </Navbar>
