@@ -25,18 +25,7 @@ function Home() {
             Enthusiastic full stack web developer eager to contribute to team success through hard work, attention to detail,
             and excellent organizational skills. A clear understanding of web development and programming. Motivated to
             learn, grow, and excel in web development.
-                </p>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <Footer></Footer>
+                </p>  
         </Container>
     );
 }

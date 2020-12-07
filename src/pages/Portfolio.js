@@ -19,7 +19,7 @@ function Portfolio() {
             <br></br>
 
             <Card id="card" style={{ width: '18rem' }}>
-                <Card.Img id="cardimg" variant="top" src="https://github.com/Cete4/Project_Grovyle/raw/main/Front%20of%20Weather%20API.001.png"/>
+                <Card.Img id="cardimg" variant="top" src="https://github.com/Cete4/Project_Grovyle/raw/main/Front%20of%20Weather%20API.001.png" />
                 <Card.Body>
                     <Card.Title>Project Grovyle</Card.Title>
                     <Card.Text>The application can provide simple outdoor ideas for the time and date depending on your calendar and location for the activity that is best suited for the day.</Card.Text>
@@ -39,6 +39,7 @@ function Portfolio() {
                     <Card.Link href="https://github.com/Cete4/NovelFilms" target="_blank">View Repo</Card.Link>
                 </Card.Body>
             </Card>
+            <Footer />
         </Container>
     );
 }
