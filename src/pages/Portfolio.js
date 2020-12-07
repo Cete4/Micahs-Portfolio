@@ -39,8 +39,6 @@ function Portfolio() {
                     <Card.Link href="https://github.com/Cete4/NovelFilms" target="_blank">View Repo</Card.Link>
                 </Card.Body>
             </Card>
-
-            <Footer></Footer>
         </Container>
     );
 }
